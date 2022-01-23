@@ -5,11 +5,16 @@
     background-image: url(../images/theone.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 300px;
 }
 /* text on gif area */
 #intro p {
     color: white;
     font-size: 40px;
+}
+#project-arrow{
+    color: white;
+    font-size: 150px;
 }
 #intro {
     padding-left: 490px;
