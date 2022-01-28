@@ -55,3 +55,6 @@ footer{
 #back {
     color: white;
 }
+#projects li {
+    list-style: none;
+}
