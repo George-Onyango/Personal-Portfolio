@@ -12,9 +12,7 @@
     height: 100vh;
     overflow: hidden;
 }
-/* html {
-    overflow-y: scroll
-} */
+
 /* text on gif area */
 #intro  {
     color: white;
