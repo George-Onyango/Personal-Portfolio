@@ -3,7 +3,7 @@
 #header {
     display: flex;
     text-align: center;
-    background-image: url(../images/theone.gif);
+    background-image: url(../images/particle-effect.gif);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center center;
@@ -12,6 +12,9 @@
     height: 100vh;
     overflow: hidden;
 }
+/* html {
+    overflow-y: scroll
+} */
 /* text on gif area */
 #intro  {
     color: white;
@@ -41,8 +44,9 @@
     padding-right: 20px;
 }
 #name {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 700;
+    letter-spacing: 4px;
 }
 footer{
     background-color: #E0CBA8;
@@ -58,3 +62,53 @@ footer{
 #projects li {
     list-style: none;
 }
+.pizza20 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pizza.png");
+}
+
+.pizaa20:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url("../images/pizza.png");
+    transition: all 1s;
+}
+.generator {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/akan.png");
+}
+
+.generator:hover {
+    background-image: -webkit-linear-gradient(rgba(8, 7, 7, 0.7), rgba(8, 7, 7, 0.7)), url("../images/akan.png");
+    transition: all 1s;
+}
+.pizza20 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pizza.png");
+}
+
+.pizaa20:hover {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/pizza.png");
+    transition: all 1s;
+}
+.pizza20,
+.generator,
+.remedy,
+.matatuu {
+    background-size: cover;
+    padding-top: 90px;
+    /* padding-bottom: 90px; */
+    text-align: center;
+    max-height: 300px !important;
+    color: white;
+}
+.pizza20:hover .overlay,
+.generator:hover .overlay
+{
+    opacity: 1;
+    transition: all 1s;
+}
+.overlay {
+    opacity: 0;
+    height: 180px;
+}
+a button {
+    background-color: #49A3DC;
+    color: white;
+}
+
