@@ -76,12 +76,20 @@ footer{
     background-image: -webkit-linear-gradient(rgba(8, 7, 7, 0.7), rgba(8, 7, 7, 0.7)), url("../images/akan.png");
     transition: all 1s;
 }
-.pizza20 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pizza.png");
+.remedy {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/remedy.png");
 }
 
-.pizaa20:hover {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/pizza.png");
+.remedy:hover {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/remedy.png");
+    transition: all 1s;
+}
+.matatuu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/matatuu\ \(2\).png");
+}
+
+.matatuu:hover {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/matatuu\ \(2\).png");
     transition: all 1s;
 }
 .pizza20,
@@ -96,7 +104,9 @@ footer{
     color: white;
 }
 .pizza20:hover .overlay,
-.generator:hover .overlay
+.generator:hover .overlay,
+.remedy:hover .overlay,
+.matatuu:hover .overlay
 {
     opacity: 1;
     transition: all 1s;
